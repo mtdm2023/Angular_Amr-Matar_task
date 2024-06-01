@@ -1,0 +1,32 @@
+.List_graph_Navigator{
+ width: 310px;
+ height: 44px;
+ background: #FFFFFF 0% 0% no-repeat padding-box;
+ border-radius: 30px;
+ opacity: 1;
+}
+.Graph_list_selector_right{
+  width: 145px;
+  height: 39px;
+  background: #FF7F5C 0% 0% no-repeat padding-box;
+  border-radius: 30px;opacity: 1;
+   position: absolute;
+   transition: 1s ease-in-out;
+   right: 0px;
+
+
+}
+.Graph_list_selector_left{
+  width: 145px;
+  height: 39px;
+  background: #FF7F5C 0% 0% no-repeat padding-box;
+  border-radius: 30px;opacity: 1;
+   position: absolute;
+   transition: 1s ease-in-out;
+   left: 0px;
+
+}
+.font_white{
+  color: white !important;
+}
+

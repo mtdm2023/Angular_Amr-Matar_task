@@ -1,0 +1,145 @@
+.list_card{
+  width: 1200;
+
+  height: 193px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+   opacity: 1;
+   border-radius: 30px;
+}
+
+table{
+  width: 100%;
+  text-align: center;
+  margin-top: 22px;
+}
+td{
+  height: 40px;
+  width: 40px;
+/* UI Properties */
+text-align: center;
+font: normal normal bold 12px/15px Montserrat;
+letter-spacing: 0px;
+color: #3D5161;
+opacity: 1;
+}
+.upper-panner{
+  height: 124px;
+  background-color:#FFFFFF ;
+  margin-left: 80px;
+}
+.upper-panner-img{
+position: relative;
+}
+
+.upper-panner-img::after{
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #FF7F5C;
+  position: absolute;
+  bottom: 0px;
+  left: -21px;
+  /* Layout Properties */
+}
+
+.roboto-font{
+
+
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 18px/22px Montserrat;
+  letter-spacing: 1.8px;
+  color: #3D5161;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.afterText{
+  text-align: left;
+  font: normal normal normal 13px/15px Roboto;
+  letter-spacing: 0px;
+  color: #3D5161;
+  opacity: 1;
+  text-wrap: wrap;
+  position: relative;
+    left: -26px;
+    top: 12px;
+}
+ .gap{
+  gap: 51px;
+ }
+ .gap2{
+  gap: 82px;
+ }
+ .center-content{
+  position: relative;
+  width: 472px;
+  height: 44px;
+  background: #F9F5F3 0% 0% no-repeat padding-box;
+ border-radius: 30px;
+ opacity: 1;
+ }
+ .center-content::before{
+  content: '';
+  position :absolute;
+  left: 0;
+  width: 133px;
+  height: 42px;
+  border-radius: 30px;
+  background-color: #FF7F5C;
+  opacity: 1;
+ }
+
+ .center-content p{
+  font: normal normal normal 14px/18px Montserrat;
+  letter-spacing: 1.4px;
+  color: #3D5161;
+  text-transform: uppercase;
+  opacity: 1;
+ }
+ .date_icon{
+  width: 16px;
+  height: 16px;
+ }
+
+ .date-field_continer
+ {
+  width: 242px;
+  height: 35px;
+  position: relative;
+ }
+ .date-field_continer2
+ {
+  width: 242px;
+  height: 35px;
+  position: relative;
+ }
+ .date-field_continer2::before
+ {
+  content: '';
+  position: absolute;
+  left:-41px;
+  width: 16px;
+  height: 15px;
+ background-color: #FF7F5C;
+ }
+ .date-field_continer::before
+ {
+
+  content: '';
+  position: absolute;
+  left:-41px;
+  width: 12px;
+  height: 18px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #FF7F5C;
+  /* UI Properties */
+
+ }
+.line{
+  width: 242px;
+  height: 2px;
+  background-color: black;
+  border-radius: 200px;
+}

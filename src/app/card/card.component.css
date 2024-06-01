@@ -1,0 +1,35 @@
+
+.card-container{
+  position: absolute;
+  width: 269px;
+  height: 163px;
+  background: white;
+  border-radius: 24px;
+  opacity: 1;
+}
+.active-card
+{
+  background: #F4DBD4 0% 0% no-repeat padding-box;
+}
+
+.arrow_down {
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-top: 10px solid  #FF7F5C ;
+}
+.arrow_up {
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 10px solid #00CBC0;
+}
+.up_color{
+ color: #00CBC0;
+}
+.down_color
+{
+  color: #FF7F5C;
+}
